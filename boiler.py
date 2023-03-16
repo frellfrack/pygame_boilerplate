@@ -67,7 +67,6 @@ class pygameBoilerPolate:
         self.screen.blit(text,(cords[0]-text.get_width()/2, cords[1]-text.get_height()/2))
 
     def doStuff(self):
-        self.i=self.i+1
         self.drawLabel([self.centreX,self.centreY],"I do nothing!",20) 
     def printFonts(self):
         fonts = pygame.font.get_fonts()
